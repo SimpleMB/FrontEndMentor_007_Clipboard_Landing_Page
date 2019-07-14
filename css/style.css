@@ -57,6 +57,19 @@ header {
   margin-bottom: 130px;
 }
 
+@media screen and (min-width: 640px) {
+  header {
+    background: url(../images/bg-header-desktop.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    background: url(../images/bg-header-desktop.png) no-repeat;
+  }
+}
+
 .logo {
   text-align: center;
   padding: 120px 0 70px;
@@ -64,6 +77,12 @@ header {
 
 .logo img {
   width: 40%;
+}
+
+@media screen and (min-width: 640px) {
+  .logo img {
+    width: 15%;
+  }
 }
 
 .hero {
@@ -93,7 +112,22 @@ header {
 }
 
 .hero .buttons button {
-  margin: 10px 0;
+  margin: 10px;
+}
+
+@media screen and (min-width: 640px) {
+  .hero .buttons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero .buttons button {
+    padding: 15px 40px;
+  }
 }
 
 main {
@@ -258,7 +292,7 @@ footer {
   background-color: #f8f8f8;
 }
 
-.logo {
+.footer_logo {
   padding: 50px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,7 +305,7 @@ footer {
           align-items: center;
 }
 
-.logo img {
+.footer_logo img {
   width: 50%;
 }
 

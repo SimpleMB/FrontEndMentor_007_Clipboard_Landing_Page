@@ -5,7 +5,7 @@ footer {
   background-color: #f8f8f8;
 }
 
-.logo {
+.footer_logo {
   padding: 50px 0;
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@ footer {
         border-radius: 50px;
         font-size: 20px;
         &:hover {
-          background-color: #fff
+          background-color: #fff;
         }
       }
     }

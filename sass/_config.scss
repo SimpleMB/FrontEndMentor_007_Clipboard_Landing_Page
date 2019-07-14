@@ -13,6 +13,12 @@
   margin: 0 auto;
 }
 
+// Breaking points for media queries
+
+$media-phone: 375px; // default
+$media-tablet: 640px;
+$media-desktop: 1024px;
+
 // Typography
 
 html,

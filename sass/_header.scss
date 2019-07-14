@@ -2,6 +2,13 @@ header {
   background: url(../images/bg-header-mobile.png) no-repeat;
   background-size: contain;
   margin-bottom: 130px;
+  @media screen and (min-width: $media-tablet) {
+    background: url(../images/bg-header-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  @media screen and (min-width: $media-desktop) {
+    background: url(../images/bg-header-desktop.png) no-repeat;
+  }
 }
 
 .logo {
@@ -9,6 +16,11 @@ header {
   padding: 120px 0 70px;
   img {
     width: 40%;
+  }
+  @media screen and (min-width: $media-tablet) {
+    img {
+      width: 15%;
+    }
   }
 }
 .hero {
@@ -28,7 +40,14 @@ header {
     margin-top: 25px;
     button {
       @extend %buttons;
-      margin: 10px 0;
+      margin: 10px;
+    }  
+    @media screen and (min-width: $media-tablet) {
+    flex-direction: row;
+    justify-content: center;
+    button {
+      padding: 15px 40px;
+    }
     }
   }
 }
