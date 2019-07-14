@@ -6,7 +6,11 @@ header {
 
 header .logo {
   text-align: center;
-  padding: 120px 0 60px;
+  padding: 120px 0 70px;
+}
+
+header .logo img {
+  width: 40%;
 }
 
 header .hero {
@@ -32,7 +36,7 @@ header .hero .buttons {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 header .hero .buttons button {
@@ -65,7 +69,7 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 60px 0 150px;
+  padding: 70px 0 150px;
   text-align: center;
 }
 
@@ -187,6 +191,84 @@ main {
   margin-bottom: 20px;
 }
 
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f8f8f8;
+}
+
+.logo {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo img {
+  width: 50%;
+}
+
+.links2 ul {
+  list-style: none;
+}
+
+.links2 ul li {
+  text-align: center;
+  padding: 10px;
+}
+
+.links2 ul li a {
+  text-decoration: none;
+  color: #4c545d;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+.links2 ul li a:hover {
+  background-color: #fff;
+}
+
+.social-media {
+  padding: 50px 50px;
+  width: 100%;
+}
+
+.social-media ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+.social-media ul li a img {
+  width: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.social-media ul li a img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 header .hero .buttons button, .download .buttons button {
   padding: 15px;
   color: white;
@@ -212,6 +294,10 @@ html,
 button,
 input {
   font-family: "Bai Jamjuree", sans-serif;
+}
+
+p {
+  color: #9fabb2;
 }
 
 * {

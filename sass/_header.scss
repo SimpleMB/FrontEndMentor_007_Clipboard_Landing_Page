@@ -4,7 +4,10 @@ header {
   margin-bottom: 130px;
   .logo {
     text-align: center;
-    padding: 120px 0 60px;
+    padding: 120px 0 70px;
+    img {
+      width: 40%;
+    }
   }
   .hero {
     text-align: center;
@@ -20,7 +23,7 @@ header {
     .buttons {
       display: flex;
       flex-direction: column;
-      margin-top: 15px;
+      margin-top: 25px;
       button {
         @extend %buttons;
         margin: 10px 0;
