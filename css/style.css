@@ -1,34 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+html,
+button,
+input {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #4c545d;
+}
+
+p {
+  color: #9fabb2;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #4c545d;
+}
+
+.hero .buttons button, .download .buttons button {
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  background-color: #6173ff;
+  -webkit-box-shadow: 5px 5px 15px rgba(97, 115, 255, 0.5);
+          box-shadow: 5px 5px 15px rgba(97, 115, 255, 0.5);
+}
+
+.hero .buttons button:hover, .download .buttons button:hover {
+  cursor: pointer;
+}
+
+.hero .buttons button:first-of-type, .download .buttons button:first-of-type {
+  background-color: #26baa4;
+  -webkit-box-shadow: 5px 5px 15px rgba(38, 186, 164, 0.5);
+          box-shadow: 5px 5px 15px rgba(38, 186, 164, 0.5);
+}
+
 header {
   background: url(../images/bg-header-mobile.png) no-repeat;
   background-size: contain;
   margin-bottom: 130px;
 }
 
-header .logo {
+.logo {
   text-align: center;
   padding: 120px 0 70px;
 }
 
-header .logo img {
+.logo img {
   width: 40%;
 }
 
-header .hero {
+.hero {
   text-align: center;
   padding: 0 34px;
 }
 
-header .hero h1 {
+.hero h1 {
   font-size: 30px;
 }
 
-header .hero p {
+.hero p {
   font-size: 16px;
   padding: 10px 0;
   line-height: 2;
 }
 
-header .hero .buttons {
+.hero .buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +92,7 @@ header .hero .buttons {
   margin-top: 25px;
 }
 
-header .hero .buttons button {
+.hero .buttons button {
   margin: 10px 0;
 }
 
@@ -267,48 +320,5 @@ footer {
 .social-media ul li a img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-}
-
-header .hero .buttons button, .download .buttons button {
-  padding: 15px;
-  color: white;
-  font-size: 18px;
-  border: none;
-  border-radius: 50px;
-  background-color: #6173ff;
-  -webkit-box-shadow: 5px 5px 15px rgba(97, 115, 255, 0.5);
-          box-shadow: 5px 5px 15px rgba(97, 115, 255, 0.5);
-}
-
-header .hero .buttons button:hover, .download .buttons button:hover {
-  cursor: pointer;
-}
-
-header .hero .buttons button:first-of-type, .download .buttons button:first-of-type {
-  background-color: #26baa4;
-  -webkit-box-shadow: 5px 5px 15px rgba(38, 186, 164, 0.5);
-          box-shadow: 5px 5px 15px rgba(38, 186, 164, 0.5);
-}
-
-html,
-button,
-input {
-  font-family: "Bai Jamjuree", sans-serif;
-}
-
-p {
-  color: #9fabb2;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,55 @@
+// Reset
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// Width
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+// Typography
+
+html,
+button,
+input {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: $neutral-darkgrayishblue-color;
+}
+
+// Universal styles for elements
+
+p {
+  color: $neutral-grayishblue-color;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $neutral-darkgrayishblue-color;
+}
+
+%buttons {
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  background-color: $primary-lightblue-color;
+  box-shadow: 5px 5px 15px rgba($primary-lightblue-color, $alpha: 0.5);
+  &:hover {
+    cursor: pointer;
+  }
+  &:first-of-type {
+    background-color: $primary-strongcyan-color;
+    box-shadow: 5px 5px 15px rgba($primary-strongcyan-color, $alpha: 0.5);
+  }
+}

@@ -2,32 +2,33 @@ header {
   background: url(../images/bg-header-mobile.png) no-repeat;
   background-size: contain;
   margin-bottom: 130px;
-  .logo {
-    text-align: center;
-    padding: 120px 0 70px;
-    img {
-      width: 40%;
-    }
+}
+
+.logo {
+  text-align: center;
+  padding: 120px 0 70px;
+  img {
+    width: 40%;
   }
-  .hero {
-    text-align: center;
-    padding: 0 34px;
-    h1 {
-      font-size: 30px;
-    }
-    p {
-      font-size: 16px;
-      padding: 10px 0;
-      line-height: 2;
-    }
-    .buttons {
-      display: flex;
-      flex-direction: column;
-      margin-top: 25px;
-      button {
-        @extend %buttons;
-        margin: 10px 0;
-      }
+}
+.hero {
+  text-align: center;
+  padding: 0 34px;
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 16px;
+    padding: 10px 0;
+    line-height: 2;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    button {
+      @extend %buttons;
+      margin: 10px 0;
     }
   }
 }
