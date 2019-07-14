@@ -1,0 +1,109 @@
+main {
+  padding: 0 35px;
+  margin-bottom: 90px;
+}
+
+.feature-snippets {
+  .header {
+    text-align: center;
+    h2 {
+      padding: 20px 0;
+      font-size: 28px;
+    }
+    p {
+      line-height: 1.5;
+    }
+  }
+  .two-columns {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0 150px;
+    text-align: center;
+    .left {
+      img {
+        width: 100%;
+      }
+    }
+    .right {
+      h3 {
+        font-size: 24px;
+        padding: 50px 0 15px;
+      }
+    }
+  }
+}
+
+.feature-access {
+  text-align: center;
+  h2 {
+    font-size: 28px;
+    padding: 20px 0;
+  }
+  p {
+    line-height: 1.5;
+  }
+  img {
+    width: 100%;
+    transform: scale(1.1);
+    padding: 70px 0 80px;
+  }
+}
+
+.workflow {
+  text-align: center;
+  .header {
+    padding-bottom: 50px;
+    h3 {
+      padding: 15px 0;
+      font-size: 26px;
+    }
+  }
+  .three-columns {
+    display: flex;
+    flex-direction: column;
+    section {
+      padding: 25px 0;
+      img {
+        padding: 20px 0;
+      }
+      h3 {
+        font-size: 24px;
+        padding: 20px;
+      }
+      p {
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+.partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+  img {
+    padding: 30px;
+  }
+}
+
+.download {
+  padding: 70px 0;
+  text-align: center;
+  h2 {
+    font-size: 28px;
+  }
+  p {
+    line-height: 1.5;
+    padding: 15px 0 50px
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    button {
+      @extend %buttons;
+      margin-bottom: 20px;
+    }
+  }
+}

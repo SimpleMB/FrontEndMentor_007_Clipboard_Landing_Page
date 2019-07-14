@@ -1,0 +1,53 @@
+@import "./header";
+@import "./main";
+@import "./footer";
+
+// Colors
+$primary-strongcyan-color: hsl(171, 66%, 44%);
+$primary-lightblue-color: hsl(233, 100%, 69%);
+$neutral-darkgrayishblue-color: hsl(210, 10%, 33%);
+$neutral-grayishblue-color: hsl(201, 11%, 66%);
+
+// font family:
+
+// Family: [Bai Jamjuree](https://fonts.google.com/specimen/Bai+Jamjuree)
+// Weights: 400, 600
+
+%buttons {
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  background-color: $primary-lightblue-color;
+  box-shadow: 5px 5px 15px rgba($primary-lightblue-color, $alpha: 0.5);
+  &:hover {
+    cursor: pointer;
+  }
+  &:first-of-type {
+    background-color: $primary-strongcyan-color;
+    box-shadow: 5px 5px 15px rgba($primary-strongcyan-color, $alpha: 0.5);
+  }
+}
+
+html,
+button,
+input {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+
+

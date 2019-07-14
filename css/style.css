@@ -1,0 +1,228 @@
+header {
+  background: url(../images/bg-header-mobile.png) no-repeat;
+  background-size: contain;
+  margin-bottom: 130px;
+}
+
+header .logo {
+  text-align: center;
+  padding: 120px 0 60px;
+}
+
+header .hero {
+  text-align: center;
+  padding: 0 34px;
+}
+
+header .hero h1 {
+  font-size: 30px;
+}
+
+header .hero p {
+  font-size: 16px;
+  padding: 10px 0;
+  line-height: 2;
+}
+
+header .hero .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+}
+
+header .hero .buttons button {
+  margin: 10px 0;
+}
+
+main {
+  padding: 0 35px;
+  margin-bottom: 90px;
+}
+
+.feature-snippets .header {
+  text-align: center;
+}
+
+.feature-snippets .header h2 {
+  padding: 20px 0;
+  font-size: 28px;
+}
+
+.feature-snippets .header p {
+  line-height: 1.5;
+}
+
+.feature-snippets .two-columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 60px 0 150px;
+  text-align: center;
+}
+
+.feature-snippets .two-columns .left img {
+  width: 100%;
+}
+
+.feature-snippets .two-columns .right h3 {
+  font-size: 24px;
+  padding: 50px 0 15px;
+}
+
+.feature-access {
+  text-align: center;
+}
+
+.feature-access h2 {
+  font-size: 28px;
+  padding: 20px 0;
+}
+
+.feature-access p {
+  line-height: 1.5;
+}
+
+.feature-access img {
+  width: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  padding: 70px 0 80px;
+}
+
+.workflow {
+  text-align: center;
+}
+
+.workflow .header {
+  padding-bottom: 50px;
+}
+
+.workflow .header h3 {
+  padding: 15px 0;
+  font-size: 26px;
+}
+
+.workflow .three-columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.workflow .three-columns section {
+  padding: 25px 0;
+}
+
+.workflow .three-columns section img {
+  padding: 20px 0;
+}
+
+.workflow .three-columns section h3 {
+  font-size: 24px;
+  padding: 20px;
+}
+
+.workflow .three-columns section p {
+  line-height: 1.5;
+}
+
+.partners {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 70px 0;
+}
+
+.partners img {
+  padding: 30px;
+}
+
+.download {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.download h2 {
+  font-size: 28px;
+}
+
+.download p {
+  line-height: 1.5;
+  padding: 15px 0 50px;
+}
+
+.download .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.download .buttons button {
+  margin-bottom: 20px;
+}
+
+header .hero .buttons button, .download .buttons button {
+  padding: 15px;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  background-color: #6173ff;
+  -webkit-box-shadow: 5px 5px 15px rgba(97, 115, 255, 0.5);
+          box-shadow: 5px 5px 15px rgba(97, 115, 255, 0.5);
+}
+
+header .hero .buttons button:hover, .download .buttons button:hover {
+  cursor: pointer;
+}
+
+header .hero .buttons button:first-of-type, .download .buttons button:first-of-type {
+  background-color: #26baa4;
+  -webkit-box-shadow: 5px 5px 15px rgba(38, 186, 164, 0.5);
+          box-shadow: 5px 5px 15px rgba(38, 186, 164, 0.5);
+}
+
+html,
+button,
+input {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
