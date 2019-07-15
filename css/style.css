@@ -463,6 +463,9 @@ main {
     line-height: 2;
     padding: 30px 0 50px;
   }
+  .download .buttons button {
+    padding: 15px 50px;
+  }
 }
 
 footer {
