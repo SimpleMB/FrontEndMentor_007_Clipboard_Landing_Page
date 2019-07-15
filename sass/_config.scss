@@ -52,8 +52,11 @@ a {
   border-radius: 50px;
   background-color: $primary-lightblue-color;
   box-shadow: 5px 5px 15px rgba($primary-lightblue-color, $alpha: 0.5);
+  transition: 0.3s;
   &:hover {
     cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.1);
   }
   &:first-of-type {
     background-color: $primary-strongcyan-color;
