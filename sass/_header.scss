@@ -22,6 +22,11 @@ header {
       width: 15%;
     }
   }
+  @media screen and (min-width: $media-desktop) {
+    img {
+      width: 12%;
+    }
+  }
 }
 .hero {
   text-align: center;
@@ -41,13 +46,23 @@ header {
     button {
       @extend %buttons;
       margin: 10px;
-    }  
-    @media screen and (min-width: $media-tablet) {
-    flex-direction: row;
-    justify-content: center;
-    button {
-      padding: 15px 40px;
     }
+    @media screen and (min-width: $media-tablet) {
+      flex-direction: row;
+      justify-content: center;
+      button {
+        padding: 15px 40px;
+      }
+    }
+  }
+  @media screen and (min-width: $media-desktop) {
+    max-width: 720px;
+    margin: 0 auto;
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 18px;
     }
   }
 }

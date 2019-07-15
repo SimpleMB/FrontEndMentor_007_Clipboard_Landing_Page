@@ -85,6 +85,12 @@ header {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .logo img {
+    width: 12%;
+  }
+}
+
 .hero {
   text-align: center;
   padding: 0 34px;
@@ -130,9 +136,28 @@ header {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .hero {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+}
+
 main {
   padding: 0 35px;
   margin-bottom: 90px;
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding: 0;
+  }
 }
 
 .feature-snippets .header {
@@ -144,8 +169,17 @@ main {
   font-size: 28px;
 }
 
-.feature-snippets .header p {
-  line-height: 1.5;
+@media screen and (min-width: 1024px) {
+  .feature-snippets .header {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .feature-snippets .header h2 {
+    font-size: 34px;
+  }
+  .feature-snippets .header p {
+    line-height: 2;
+  }
 }
 
 .feature-snippets .two-columns {
@@ -169,6 +203,51 @@ main {
   padding: 50px 0 15px;
 }
 
+@media screen and (min-width: 640px) {
+  .feature-snippets .two-columns .right h3 {
+    padding: 70px 0 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .feature-snippets .two-columns {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .feature-snippets .two-columns .left {
+    width: 50%;
+  }
+  .feature-snippets .two-columns .left img {
+    width: 157%;
+    -webkit-transform: translateX(-36%);
+            transform: translateX(-36%);
+  }
+  .feature-snippets .two-columns .right {
+    width: 50%;
+    max-width: 500px;
+    text-align: left;
+    padding: 0 50px 0 100px;
+  }
+  .feature-snippets .two-columns .right p {
+    line-height: 2;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .feature-snippets {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .feature-snippets {
+    width: 100%;
+  }
+}
+
 .feature-access {
   text-align: center;
 }
@@ -189,6 +268,33 @@ main {
   padding: 70px 0 80px;
 }
 
+@media screen and (min-width: 640px) {
+  .feature-access {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .feature-access {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .feature-access h2 {
+    font-size: 34px;
+  }
+  .feature-access p {
+    line-height: 2;
+  }
+  .feature-access img {
+    -webkit-transform-origin: center top;
+            transform-origin: center top;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    padding-bottom: 170px;
+  }
+}
+
 .workflow {
   text-align: center;
 }
@@ -200,6 +306,12 @@ main {
 .workflow .header h3 {
   padding: 15px 0;
   font-size: 26px;
+}
+
+@media screen and (min-width: 1024px) {
+  .workflow .header h3 {
+    font-size: 34px;
+  }
 }
 
 .workflow .three-columns {
@@ -229,6 +341,34 @@ main {
   line-height: 1.5;
 }
 
+@media screen and (min-width: 1024px) {
+  .workflow .three-columns {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .workflow .three-columns section {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 25px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .workflow {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .workflow {
+    max-width: 80%;
+  }
+}
+
 .partners {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -248,6 +388,19 @@ main {
 
 .partners img {
   padding: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .partners {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 140px 0 100px;
+  }
+  .partners img {
+    width: 17%;
+  }
 }
 
 .download {
@@ -278,6 +431,39 @@ main {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 640px) {
+  .download {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  .download .buttons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .download .buttons button {
+    margin: 5px;
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .download {
+    max-width: 640px;
+  }
+  .download h2 {
+    font-size: 34px;
+  }
+  .download p {
+    line-height: 2;
+    padding: 30px 0 50px;
+  }
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -289,11 +475,28 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 50px 0;
   background-color: #f8f8f8;
 }
 
+@media screen and (min-width: 1024px) {
+  footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer > * {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+}
+
 .footer_logo {
-  padding: 50px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -307,6 +510,12 @@ footer {
 
 .footer_logo img {
   width: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer_logo img {
+    max-width: 70px;
+  }
 }
 
 .links2 ul {
@@ -330,8 +539,17 @@ footer {
   background-color: #fff;
 }
 
+@media screen and (min-width: 1024px) {
+  .links2 ul li {
+    text-align: left;
+  }
+  .links2 ul li a {
+    font-size: 15px;
+  }
+}
+
 .social-media {
-  padding: 50px 50px;
+  padding: 50px 50px 0;
   width: 100%;
 }
 
@@ -354,5 +572,25 @@ footer {
 .social-media ul li a img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+@media screen and (min-width: 1024px) {
+  .social-media {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    padding-top: 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .social-media ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .social-media ul li {
+    margin-right: 30px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
